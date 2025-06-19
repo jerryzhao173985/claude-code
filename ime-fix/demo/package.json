@@ -1,0 +1,42 @@
+{
+  "name": "claude-code-ime-demo",
+  "version": "1.0.0",
+  "description": "Interactive demo for testing IME input functionality in Claude Code",
+  "main": "ime-demo.tsx",
+  "bin": {
+    "ime-demo": "./ime-demo.tsx"
+  },
+  "scripts": {
+    "start": "tsx ime-demo.tsx",
+    "demo": "tsx ime-demo.tsx",
+    "build": "tsc --noEmit",
+    "test": "echo \"Demo application - run 'npm start' to test IME input\""
+  },
+  "keywords": [
+    "ime",
+    "input-method",
+    "japanese",
+    "chinese",
+    "korean",
+    "cjk",
+    "claude-code",
+    "terminal",
+    "demo"
+  ],
+  "dependencies": {
+    "ink": "^3.2.0",
+    "react": "^18.2.0",
+    "chalk": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "tsx": "^3.12.0",
+    "typescript": "^5.0.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

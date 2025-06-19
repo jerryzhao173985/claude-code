@@ -1,0 +1,25 @@
+{
+  "name": "@claude-code/ime-fix",
+  "version": "1.0.0",
+  "description": "IME input handling fix for Claude Code - addresses issue #1547",
+  "main": "ime-text-input.tsx",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "lint": "eslint . --ext .ts,.tsx"
+  },
+  "keywords": ["ime", "input-method", "japanese", "chinese", "terminal", "cli"],
+  "author": "Claude Code Contributors",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.0.0",
+    "ink": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/jest": "^29.0.0",
+    "typescript": "^5.0.0",
+    "jest": "^29.0.0",
+    "ts-jest": "^29.0.0"
+  }
+}
